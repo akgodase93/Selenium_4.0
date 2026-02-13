@@ -22,6 +22,7 @@ public class FileUploadSmipleDemo {
 		//selecting one or single file
 		driver.findElement(By.id("filesToUpload")).sendKeys(filePath+file1);
 		Thread.sleep(5000);
+		
 		if(driver.findElement(By.xpath("//ul[@id='fileList']/li")).getText().equals(file1))
 		{
 			System.out.println("Single File uploaded successfuly!!!");
