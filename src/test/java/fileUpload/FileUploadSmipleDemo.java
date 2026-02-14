@@ -11,8 +11,8 @@ public class FileUploadSmipleDemo {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		String filePath="C:\\Users\\Admin\\Downloads\\selenium\\";
-		String file1="test.txt";
+		String filePath=System.getProperty("user.dir")+"\\src\\test\\resources\\InputFiles\\";
+		String file1="test2.txt";
 		String file2="test2.txt";
 		
 		WebDriver driver=new ChromeDriver();
